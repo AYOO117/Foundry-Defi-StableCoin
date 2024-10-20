@@ -35,15 +35,13 @@ To run and test the project locally:
    cd Foundry-Defi-StableCoin
    forge install
 
-3. **Run Tests
-**:
+3. **Run Tests**:
 
    ```bash
    forge test
 
    
-4. **Deploying Contracts
-**:
+4. **Deploying Contracts**:
 
    ```bash
    forge script script/Deploy.s.sol --rpc-url <YOUR_RPC_URL>
