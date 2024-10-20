@@ -29,17 +29,23 @@ To run and test the project locally:
    git clone https://github.com/AYOO117/Foundry-Defi-StableCoin.git
 
 
-## Install Dependencies: 
-```bash
-cd Foundry-Defi-StableCoin
+2. **cd Foundry-Defi-StableCoin
 forge install
+**:
 
+   ```bash
+   cd Foundry-Defi-StableCoin
+   forge install
 
+3. **Run Tests
+**:
 
+   ```bash
+   forge test
 
-You can run the Foundry test suite using the following command:
-```bash
-forge test
+   
+4. **Deploying Contracts
+**:
 
-
-
+   ```bash
+   forge script script/Deploy.s.sol --rpc-url <YOUR_RPC_URL>
