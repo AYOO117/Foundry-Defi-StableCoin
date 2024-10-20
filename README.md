@@ -31,7 +31,7 @@ To run and test the project locally:
 **forge install**
 ## Install Dependencies: 
 ```bash
-**cd Foundry-Defi-StableCoin
+cd Foundry-Defi-StableCoin
 forge install
-**
+
 
