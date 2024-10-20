@@ -45,3 +45,35 @@ To run and test the project locally:
 
    ```bash
    forge script script/Deploy.s.sol --rpc-url <YOUR_RPC_URL>
+
+
+## Smart Contract Description
+
+### DSCEngine.sol
+
+- **Collateral Management**: Handles deposit/withdrawal of collateral (WETH, WBTC).
+- **Minting & Redeeming**: Users can mint stablecoins using over-collateralized assets and redeem them by returning the stablecoins.
+- **Stability Mechanism**: Algorithmic checks ensure stability, keeping the token's value at $1.
+
+## Getting Started
+
+1. **Deposit WETH or WBTC** as collateral.
+2. **Mint stablecoins (DSC)** by over-collateralizing.
+3. **Redeem stablecoins** to retrieve your collateral.
+
+## Tests
+
+Extensive unit tests have been written using the Foundry framework to ensure proper functioning of the system, covering:
+
+- Collateral deposit/withdrawal
+- Minting/redeeming DSC
+- Price updates and stability mechanisms
+
+## Contributing
+
+Feel free to open issues or submit pull requests if you find any bugs or have suggestions for improvements.
+
+## License
+
+This project is licensed under the MIT License.
+
