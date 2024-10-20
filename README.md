@@ -29,9 +29,7 @@ To run and test the project locally:
    git clone https://github.com/AYOO117/Foundry-Defi-StableCoin.git
 
 
-2. **cd Foundry-Defi-StableCoin
-forge install
-**:
+2. **cd Foundry-Defi-StableCoin forge install**:
 
    ```bash
    cd Foundry-Defi-StableCoin
